@@ -9,5 +9,4 @@ RUN rm elan-init.sh
 RUN python3 -m pip install mathlibtools
 RUN cp ~/.elan/bin/* /bin
 RUN leanproject new lean
-WORKDIR /lean
-RUN leanproject get-mathlib-cache
+
